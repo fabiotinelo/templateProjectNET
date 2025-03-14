@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\CQRS\" />
+    <Folder Include="Application\Validator\" />
+    <Folder Include="Application\Service\" />
+    <Folder Include="Contracts\Event\" />
+    <Folder Include="Contracts\IRepository\" />
+    <Folder Include="Contracts\IService\" />
+    <Folder Include="Contracts\DTO\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Domain\User.cs" />
+  </ItemGroup>
+
+</Project>
